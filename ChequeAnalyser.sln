@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChequeAnalyser", "ChequeAnalyser\ChequeAnalyser.csproj", "{4A04B8FB-DE4C-4B75-844B-652D31EB985D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChequeAnalyserLib", "ChequeAnalyserLib\ChequeAnalyserLib.csproj", "{489862EA-BE8E-4628-A7DF-56875B64FB69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A04B8FB-DE4C-4B75-844B-652D31EB985D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A04B8FB-DE4C-4B75-844B-652D31EB985D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A04B8FB-DE4C-4B75-844B-652D31EB985D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A04B8FB-DE4C-4B75-844B-652D31EB985D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489862EA-BE8E-4628-A7DF-56875B64FB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489862EA-BE8E-4628-A7DF-56875B64FB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489862EA-BE8E-4628-A7DF-56875B64FB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489862EA-BE8E-4628-A7DF-56875B64FB69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {290D09D8-26B1-46B4-8D3F-EEF33634E571}
+	EndGlobalSection
+EndGlobal
