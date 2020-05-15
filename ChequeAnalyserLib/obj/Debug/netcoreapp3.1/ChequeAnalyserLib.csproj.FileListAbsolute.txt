@@ -1,0 +1,9 @@
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\bin\Debug\netcoreapp3.1\ChequeAnalyserLib.deps.json
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\bin\Debug\netcoreapp3.1\ChequeAnalyserLib.dll
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\bin\Debug\netcoreapp3.1\ChequeAnalyserLib.pdb
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.csproj.CoreCompileInputs.cache
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.AssemblyInfoInputs.cache
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.AssemblyInfo.cs
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.dll
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.pdb
+C:\Users\Albert\source\repos\ChequeAnalyser\ChequeAnalyserLib\obj\Debug\netcoreapp3.1\ChequeAnalyserLib.csprojAssemblyReference.cache

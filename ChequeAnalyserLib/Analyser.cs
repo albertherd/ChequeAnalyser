@@ -60,13 +60,14 @@ namespace ChequeAnalyserLib
 
         private async Task<AnalysedImage> ResolveImageAsync(QueuedImage queuedImage)
         {
-            await Task.Delay(1000); /* delay one before querying as results aren't processed super fast */
-            var response = await _httpClient.GetAsync(queuedImage.ResourceURL);
-            ImageAnalysis result = JsonConvert.DeserializeObject<ImageAnalysis>(await response.Content.ReadAsStringAsync());
-            if (!result.IsSuccessStatus)
+            ImageAnalysis result;
+            do
             {
-                _resolverBlock.Post(queuedImage);
-            }
+                await Task.Delay(1000); /* delay one before querying as results aren't processed super fast */
+                var response = await _httpClient.GetAsync(queuedImage.ResourceURL);
+                result = JsonConvert.DeserializeObject<ImageAnalysis>(await response.Content.ReadAsStringAsync());
+            } while (!result.IsSuccessStatus);
+
 
             return new AnalysedImage()
             {
