@@ -82,11 +82,11 @@ namespace ChequeAnalyserLib
 
             ChequeAnalysis chequeAnalysis = new ChequeAnalysis
             (
-                accountNumber: GetProperty(chequeTemplate.AccountNumber, image).Text,
-                amount: GetProperty(chequeTemplate.Amount, image).Text,
-                date: GetProperty(chequeTemplate.Date, image).Text,
-                payDescriptionLineOne: GetProperty(chequeTemplate.PayDescriptionLineOne, image).Text,
-                payDescriptionLineTwo: GetProperty(chequeTemplate.PayDescriptionLineTwo, image).Text
+                accountNumber: GetProperty(chequeTemplate.AccountNumber, image)?.Text,
+                amount: GetProperty(chequeTemplate.Amount, image)?.Text,
+                date: GetProperty(chequeTemplate.Date, image)?.Text,
+                payDescriptionLineOne: GetProperty(chequeTemplate.PayDescriptionLineOne, image)?.Text,
+                payDescriptionLineTwo: GetProperty(chequeTemplate.PayDescriptionLineTwo, image)?.Text
             );
 
             _imageManager.RenderAnalysedChequeBoundingBoxes(image);
